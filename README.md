@@ -57,3 +57,5 @@ Contained in this web page are the following elements:
 ## Solution
 
 A possible solution can be found in the [Software Development/](/Software%20Development/) folder.
+
+A Github Pages website is available at the following address: https://anthonygraignic.github.io/girlcode-q2-115368/Software%20Development/index.html
