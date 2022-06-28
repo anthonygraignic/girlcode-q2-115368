@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Contact INNOVATIVE</title>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        table {
+            width: 100%;
+            border-spacing: 10px;
+            /* Please don't use this font in a professional environment. It is often considered ugly and overused.
+            https://designforhackers.com/blog/comic-sans-hate/#:~:text=Comic%20Sans%20was%20originally%20designed,the%20font%20really%20got%20ugly. */
+            font-family: "Comic Sans MS", "Comic Sans", cursive;
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            text-align: right;
+        }
+
+        td {
+            text-align: center;
+        }
+
+        td:first-child {
+            width: 150px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td><label for="name">Name</label></td>
+            <td>
+                <input id="name" name="name" type="text" maxlength="40"></input>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="feedback">Feedback</label></td>
+            <td>
+                <textarea id="feedback" name="feedback" rows="5" maxlength="40"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button type="submit">Submit</button>
+                <button type="button">Reset</button>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
